@@ -13,7 +13,8 @@
 <body>
     <h2>Dear Employee, you are WELCOME!</h2>
     <br><br>
-    <h3>Your name: ${param.employeeName}</h3>
+<%--    <h3>Your name: ${param.employeeName}</h3>--%>
+    <h3>Welcome ${nameAttribute}!</h3>
     <h3>Your age: ${param.employeeAge}</h3>
 
 </body>
