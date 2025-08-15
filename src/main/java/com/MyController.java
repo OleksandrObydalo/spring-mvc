@@ -29,8 +29,10 @@ public class MyController {
         String name = request.getParameter("employeeName");
         name = "Mr. " + name;
         model.addAttribute("nameAttribute", name);
+        model.addAttribute("team", "Development Team");
         return "show-emp-details-view";
     }
+
 
 
 }
